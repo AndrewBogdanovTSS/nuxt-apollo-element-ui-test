@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-bt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "config": {
+    "nuxt": {
+      "port": 3012
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc1",
+    "element-ui": "^2.4.5",
+    "nuxt-edge": "^2.0.0-25552561.fceb30b"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3"
+  }
+}
